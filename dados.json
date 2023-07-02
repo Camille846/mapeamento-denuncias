@@ -1,0 +1,256 @@
+{
+    "data": [
+        {
+            "UF": "SP",
+            "Denúncias por Estado": "57,919",
+            "Violações por Estado": "389,111",
+            "Protocolo de Denúncias por Estado": "37,237",
+            "Grupo vulnerável": "01. VIOLÊNCIA CONTRA A MULHER",
+            "Denúncias por Grupo Vulnerável": "46,981",
+            "Violações por Grupo Vulnerável": "246,168"
+        },
+        {
+            "UF": "RJ",
+            "Denúncias por Estado": "30,591",
+            "Violações por Estado": "201,936",
+            "Protocolo de Denúncias por Estado": "20,501",
+            "Grupo vulnerável": "02. VIOLÊNCIA CONTRA CRIANÇA OU ADOLESCENTE",
+            "Denúncias por Grupo Vulnerável": "97,341",
+            "Violações por Grupo Vulnerável": "560,080"
+        },
+        {
+            "UF": "MG",
+            "Denúncias por Estado": "24,085",
+            "Violações por Estado": "159,448",
+            "Protocolo de Denúncias por Estado": "15,582",
+            "Grupo vulnerável": "03. VIOLÊNCIA CONTRA PESSOA IDOSA",
+            "Denúncias por Grupo Vulnerável": "58,670",
+            "Violações por Grupo Vulnerável": "348,377"
+        },
+        {
+            "UF": "RS",
+            "Denúncias por Estado": "12,649",
+            "Violações por Estado": "85,235",
+            "Protocolo de Denúncias por Estado": "8,198",
+            "Grupo vulnerável": "04. VIOLÊNCIA CONTRA CIDADÃO, FAMÍLIA OU COMUNIDADE",
+            "Denúncias por Grupo Vulnerável": "17,257",
+            "Violações por Grupo Vulnerável": "80,500"
+        },
+        {
+            "UF": "BA",
+            "Denúncias por Estado": "11,600",
+            "Violações por Estado": "73,742",
+            "Protocolo de Denúncias por Estado": "7,951",
+            "Grupo vulnerável": "05. VIOLÊNCIA CONTRA PESSOA COM DEFICIÊNCIA",
+            "Denúncias por Grupo Vulnerável": "31,935",
+            "Violações por Grupo Vulnerável": "190,769"
+        },
+        {
+            "UF": "PR",
+            "Denúncias por Estado": "8,691",
+            "Violações por Estado": "56,435",
+            "Protocolo de Denúncias por Estado": "5,673",
+            "Grupo vulnerável": "06. VIOLÊNCIA CONTRA PESSOA EM RESTRIÇÃO DE LIBERDADE",
+            "Denúncias por Grupo Vulnerável": "3,878",
+            "Violações por Grupo Vulnerável": "18,358"
+        },
+        {
+            "UF": "PE",
+            "Denúncias por Estado": "8,237",
+            "Violações por Estado": "56,294",
+            "Protocolo de Denúncias por Estado": "5,434",
+            "Grupo vulnerável": "07. VIOLÊNCIA CONTRA POPULAÇÃO LGBTQIA+",
+            "Denúncias por Grupo Vulnerável": "2,804",
+            "Violações por Grupo Vulnerável": "15,243"
+        },
+        {
+            "UF": "SC",
+            "Denúncias por Estado": "8,016",
+            "Violações por Estado": "51,403",
+            "Protocolo de Denúncias por Estado": "5,099",
+            "Grupo vulnerável": "08. VIOLÊNCIA CONTRA PESSOA EM SITUAÇÃO DE RUA",
+            "Denúncias por Grupo Vulnerável": "1,015",
+            "Violações por Grupo Vulnerável": "6,464"
+        },
+        {
+            "UF": "CE",
+            "Denúncias por Estado": "6,261",
+            "Violações por Estado": "43,571",
+            "Protocolo de Denúncias por Estado": "4,102",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "GO",
+            "Denúncias por Estado": "5,819",
+            "Violações por Estado": "38,913",
+            "Protocolo de Denúncias por Estado": "3,964",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "DF",
+            "Denúncias por Estado": "5,096",
+            "Violações por Estado": "32,685",
+            "Protocolo de Denúncias por Estado": "3,584",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "RN",
+            "Denúncias por Estado": "4,307",
+            "Violações por Estado": "28,720",
+            "Protocolo de Denúncias por Estado": "2,875",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "ES",
+            "Denúncias por Estado": "4,190",
+            "Violações por Estado": "28,010",
+            "Protocolo de Denúncias por Estado": "2,720",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "AM",
+            "Denúncias por Estado": "4,054",
+            "Violações por Estado": "27001",
+            "Protocolo de Denúncias por Estado": "2,556",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "PA",
+            "Denúncias por Estado": "3,856",
+            "Violações por Estado": "25,565",
+            "Protocolo de Denúncias por Estado": "2,503",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "MA",
+            "Denúncias por Estado": "3,683",
+            "Violações por Estado": "24,826",
+            "Protocolo de Denúncias por Estado": "2,380",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "*(N/D)",
+            "Denúncias por Estado": "3,555",
+            "Violações por Estado": "15,467",
+            "Protocolo de Denúncias por Estado": "2,991",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "MS",
+            "Denúncias por Estado": "3,372",
+            "Violações por Estado": "22,263",
+            "Protocolo de Denúncias por Estado": "2,256",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "PB",
+            "Denúncias por Estado": "3,003",
+            "Violações por Estado": "19,714",
+            "Protocolo de Denúncias por Estado": "1,937",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "AL",
+            "Denúncias por Estado": "2,709",
+            "Violações por Estado": "18,119",
+            "Protocolo de Denúncias por Estado": "1,803",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "PI",
+            "Denúncias por Estado": "2,708",
+            "Violações por Estado": "18,230",
+            "Protocolo de Denúncias por Estado": "1,688",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "SE",
+            "Denúncias por Estado": "2,336",
+            "Violações por Estado": "15,250",
+            "Protocolo de Denúncias por Estado": "1,604",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "MT",
+            "Denúncias por Estado": "1,761",
+            "Violações por Estado": "11,211",
+            "Protocolo de Denúncias por Estado": "1,175",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "RO",
+            "Denúncias por Estado": "1,189",
+            "Violações por Estado": "7,875",
+            "Protocolo de Denúncias por Estado": "751",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "TO",
+            "Denúncias por Estado": "903",
+            "Violações por Estado": "6,198",
+            "Protocolo de Denúncias por Estado": "618",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "AC",
+            "Denúncias por Estado": "530",
+            "Violações por Estado": "3,838",
+            "Protocolo de Denúncias por Estado": "352",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "AP",
+            "Denúncias por Estado": "376",
+            "Violações por Estado": "2,736",
+            "Protocolo de Denúncias por Estado": "252",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        },
+        {
+            "UF": "RR",
+            "Denúncias por Estado": "337",
+            "Violações por Estado": "2,163",
+            "Protocolo de Denúncias por Estado": "234",
+            "Grupo vulnerável": "",
+            "Denúncias por Grupo Vulnerável": "",
+            "Violações por Grupo Vulnerável": ""
+        }
+    ]
+}
