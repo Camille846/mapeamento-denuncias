@@ -1,5 +1,5 @@
-import './Cards.module.css'
-const Cards = () => {
+const Cards = (data) => {
+  console.log(data)
   return (
     <div>Cards</div>
   )
