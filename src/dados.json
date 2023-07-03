@@ -142,7 +142,7 @@
             ]
         }
     ],
-    "tipo":[
+    "type":[
         {
             "name":"integridade",
             "value": 1467733
