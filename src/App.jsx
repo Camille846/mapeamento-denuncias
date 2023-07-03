@@ -1,10 +1,9 @@
-import { useState } from 'react'
-import styles from './App.module.css'
-import { Cards } from './components'
+import './App.css'
+import { Cards } from './components/Cards'
 
 function App() {
   return (
-    <div className={styles.container}>
+    <div>
       <Cards />
     </div>
   )
