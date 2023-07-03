@@ -103,9 +103,9 @@ const labels = ['mulher','crianca','idosos','deficientes','presos','lgbt','morad
         <p className='text-gray-500 text-justify px-12 mt-4 mb-6'>
         Baseado nos dados fornecidos pelo  <span className='font-bold'> Ministério dos Direitos Humanos e da Cidadania</span> referentes ao primeiro semestre de 2023, criamos um mapeamento para que possamos enxergar, a partir de uma análise quantitativa, o reflexo das violações de direitos humanos enfrentadas pelos grupos vulneráveis na Região Sudeste.
         </p>
-        <div className='flex justify-center'>
+        <div className='flex justify-end px-12'>
           <form onSubmit={handleSubmit(onSubmit)} className='mb-6 flex justify-between gap-x-6'>
-            <select {...register("uf")} className='rounded-md bg-stone-700 px-3 py-2 text-center text-white flex items-center justify-center cursor-pointer'>
+            <select {...register("uf")} className='rounded-md border-stone-700 border-b-4 bg-white px-3 py-2 text-center text-stone-900 flex items-center justify-center cursor-pointer'>
               <option value="SP">SP</option>
               <option value="RJ">RJ</option>
               <option value="MG">MG</option>
