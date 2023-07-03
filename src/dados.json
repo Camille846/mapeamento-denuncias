@@ -1,40 +1,155 @@
 {
-    "data": [
-        {
-            "uf": "SP",
-            "complaints": "57,919",
-            "cases": "389,111",
-            "protocol": "37,237",
-            "group": "01. VIOLÊNCIA CONTRA A MULHER",
-            "complaints_per_group": "46,981",
-            "cases_per_group": "246,168"
+    "data":[
+       {
+            "uf":"SP",
+            "groups":{
+                "mulher":{
+                    "complaints": 11545,
+                    "cases": 60261
+                },
+                "crianca":{
+                    "complaints": 30549,
+                    "cases": 180096
+                },
+                "idosos":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "deficientes":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "presos":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "lgbt":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "morador_de_rua":{
+                    "complaints": 4190,
+                    "cases": 28010
+                }
+            }
         },
         {
-            "uf": "RJ",
-            "complaints": "30,591",
-            "cases": "201,936",
-            "protocol": "20,501",
-            "Grupo vulnerável": "02. VIOLÊNCIA CONTRA CRIANÇA OU ADOLESCENTE",
-            "complaints_per_group": "97,341",
-            "cases_per_group": "560,080"
+            "uf":"RJ",
+            "groups":{
+                "mulher":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "crianca":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "idosos":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "deficientes":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "presos":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "lgbt":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "morador_de_rua":{
+                    "complaints": 4190,
+                    "cases": 28010
+                }
+            }
         },
         {
-            "uf": "MG",
-            "complaints": "24,085",
-            "cases": "159,448",
-            "protocol": "15,582",
-            "Grupo vulnerável": "03. VIOLÊNCIA CONTRA PESSOA IDOSA",
-            "complaints_per_group": "58,670",
-            "cases_per_group": "348,377"
+            "uf":"MG",
+            "groups":{
+                "mulher":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "crianca":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "idosos":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "deficientes":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "presos":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "lgbt":{
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "morador_de_rua":{
+                    "complaints": 4190,
+                    "cases": 28010
+                }
+            }
         },
         {
-            "uf": "ES",
-            "complaints": "4,190",
-            "cases": "28,010",
-            "protocol": "2,720",
-            "Grupo vulnerável": "",
-            "complaints_per_group": "",
-            "cases_per_group": ""
+            "uf":"ES",
+            "groups2":[
+                {
+                    "title":"mulher",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                {
+                     "title":"crianca",
+                    "complaints": 4190,
+                    "cases": 28010
+                }
+            ],
+            "groups":{
+                "mulher":{
+                    "title":"mulher",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "crianca":{
+                     "title":"crianca",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "idosos":{
+                     "title":"idosos",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "deficientes":{
+                     "title":"deficientes",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "presos":{
+                     "title":"presos",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "lgbt":{
+                    "title":"lgbt",
+                    "complaints": 4190,
+                    "cases": 28010
+                },
+                "morador_de_rua":{
+                    "title":"morador_de_rua",
+                    "complaints": 4190,
+                    "cases": 28010
+                }
+            }
         }
     ]
 }
