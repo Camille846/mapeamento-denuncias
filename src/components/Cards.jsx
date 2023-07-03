@@ -105,16 +105,16 @@ const labels = ['mulher','crianca','idosos','deficientes','presos','lgbt','morad
         </p>
         <div className='flex justify-center'>
           <form onSubmit={handleSubmit(onSubmit)} className='mb-6 flex justify-between gap-x-6'>
-            <select {...register("uf")}>
+            <select {...register("uf")} className='rounded-md bg-stone-700 px-3 py-2 text-center text-white flex items-center justify-center cursor-pointer'>
               <option value="SP">SP</option>
               <option value="RJ">RJ</option>
               <option value="MG">MG</option>
               <option value="ES">ES</option>
             </select>
-            <input type="submit" value='Pesquisar'/>
+            <input type="submit" value='Pesquisar' className='rounded-full bg-pink-400 px-5 py-2 cursor-pointer text-white font-bold'/>
           </form>
         </div>
-        <div className='w-[100%] items-center flex justify-center mb-10'>
+        <div className='w-[100%] items-center flex justify-center mb-5 shadow-xl'>
           <div className='w-2/4 h-96'>
             {Object.keys(chartData).length && (
             <Bar
