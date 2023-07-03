@@ -2,154 +2,174 @@
     "data":[
        {
             "uf":"SP",
-            "groups":{
-                "mulher":{
+            "groups":[
+                {"title":"mulher",
                     "complaints": 11545,
                     "cases": 60261
                 },
-                "crianca":{
+                {"title":"crianca",
                     "complaints": 30549,
                     "cases": 180096
                 },
-                "idosos":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"idosos",
+                    "complaints": 16704,
+                    "cases": 99800
                 },
-                "deficientes":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"deficientes",
+                    "complaints": 9072,
+                    "cases": 54845
                 },
-                "presos":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"presos",
+                    "complaints": 1055,
+                    "cases": 4157
                 },
-                "lgbt":{
-                    "complaints": 4190,
-                    "cases": 28010
+               {"title":"lgbt",
+                    "complaints": 928,
+                    "cases": 5052
                 },
-                "morador_de_rua":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"morador_de_rua",
+                    "complaints": 294,
+                    "cases": 1698
                 }
-            }
+            ]
         },
         {
             "uf":"RJ",
-            "groups":{
-                "mulher":{
-                    "complaints": 4190,
-                    "cases": 28010
+            "groups":[
+                {"title":"mulher",
+                    "complaints": 8880,
+                    "cases": 47269
                 },
-                "crianca":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"crianca",
+                    "complaints": 13627,
+                    "cases": 80676
                 },
-                "idosos":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"idosos",
+                    "complaints": 9044,
+                    "cases": 52647
                 },
-                "deficientes":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"deficientes",
+                    "complaints": 4552,
+                    "cases": 26659
                 },
-                "presos":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"presos",
+                    "complaints": 187,
+                    "cases": 804
                 },
-                "lgbt":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"lgbt",
+                    "complaints": 421,
+                    "cases": 2354
                 },
-                "morador_de_rua":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"morador_de_rua",
+                    "complaints": 225,
+                    "cases": 1506
                 }
-            }
+            ]
+    
         },
         {
             "uf":"MG",
-            "groups":{
-                "mulher":{
-                    "complaints": 4190,
-                    "cases": 28010
+            "groups":[
+               { "title":"mulher",
+                    "complaints": 5247,
+                    "cases": 27536
                 },
-                "crianca":{
-                    "complaints": 4190,
-                    "cases": 28010
+               {"title":"crianca",
+                    "complaints": 11347,
+                    "cases": 64481
                 },
-                "idosos":{
-                    "complaints": 4190,
-                    "cases": 28010
+               {"title":"idosos",
+                    "complaints":7672,
+                    "cases": 44564
                 },
-                "deficientes":{
-                    "complaints": 4190,
-                    "cases": 28010
+                {"title":"deficientes",
+                    "complaints": 4132,
+                    "cases": 24177
                 },
-                "presos":{
-                    "complaints": 4190,
-                    "cases": 28010
+               {"title":"presos",
+                    "complaints": 528,
+                    "cases": 2687
                 },
-                "lgbt":{
-                    "complaints": 4190,
-                    "cases": 28010
+               {"title":"lgbt",
+                    "complaints": 261,
+                    "cases": 1427
                 },
-                "morador_de_rua":{
-                    "complaints": 4190,
-                    "cases": 28010
+               {"title":"morador_de_rua",
+                    "complaints": 109,
+                    "cases": 670
                 }
-            }
+            ]
         },
         {
             "uf":"ES",
-            "groups2":[
+          
+            "groups":[
                 {
                     "title":"mulher",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 974,
+                    "cases": 4985
                 },
                 {
                      "title":"crianca",
-                    "complaints": 4190,
-                    "cases": 28010
-                }
-            ],
-            "groups":{
-                "mulher":{
-                    "title":"mulher",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 2036,
+                    "cases": 11768
                 },
-                "crianca":{
-                     "title":"crianca",
-                    "complaints": 4190,
-                    "cases": 28010
-                },
-                "idosos":{
+                {
                      "title":"idosos",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 1328,
+                    "cases": 7803
                 },
-                "deficientes":{
+                {
                      "title":"deficientes",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 700,
+                    "cases": 4108
                 },
-                "presos":{
+                {
                      "title":"presos",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 83,
+                    "cases": 421
                 },
-                "lgbt":{
+            {
                     "title":"lgbt",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 39,
+                    "cases": 180
                 },
-                "morador_de_rua":{
+                {
                     "title":"morador_de_rua",
-                    "complaints": 4190,
-                    "cases": 28010
+                    "complaints": 19,
+                    "cases": 114
                 }
-            }
+            ]
+        }
+    ],
+    "tipo":[
+        {
+            "name":"integridade",
+            "value": 1467733
+        },
+        {
+            "name":"liberdade",
+            "value": 71432
+        },
+        {
+            "name":"direitos sociais",
+            "value": 58581
+        },
+        {
+            "name":"igualdade",
+            "value": 8145
+        },
+        {
+            "name":"direitos civis",
+            "value": 5650
+        },
+        {
+            "name":"vida",
+            "value": 1614
+        },
+        {
+            "name":"meio ambiente",
+            "value": 532
         }
     ]
 }
