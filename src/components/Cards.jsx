@@ -4,7 +4,6 @@ import { Bar, Doughnut } from 'react-chartjs-2';
 import {useState,useEffect } from 'react';
 import { FaPhoneVolume, FaWhatsapp, FaAppStore } from 'react-icons/fa';
 import { PiPersonFill } from 'react-icons/pi'
-import { Footer } from './Footer';
 
 ChartJS.register(
   CategoryScale,
@@ -114,7 +113,7 @@ export const Cards = () => {
 
   return (
     <div>
-      <div className='flex-col items-center text-center mt-16 justify-center mb-8 px-8 md:px-52'>
+      <div className='flex-col items-center text-center mt-10 justify-center mb-8 px-8 md:px-52 md:mt-32'>
         <h1 className="font-bold mb-1 text-2xl text-gray-900">Promovendo os Direitos Humanos</h1>
         <h2 className='text-lg mb-5 font-semibold text-gray-700'>Mapeamento de Casos e Denúncias dos Direitos Humanos</h2>
         <p className='text-gray-500 text-justify'>
@@ -174,16 +173,16 @@ export const Cards = () => {
         <div>
             <h2 className='text-start font-bold'>Formas de denunciar violação de direitos humanos</h2>
             <p className='text-gray-500 text-justify mt-7'>
-            As ligações podem ser feitas de todo o Brasil, gratuitamente, de qualquer telefone fixo ou móvel (celular): basta <span className='text-pink-400'>discar 100</span>.
+            As ligações podem ser feitas de todo o Brasil, gratuitamente, de qualquer telefone fixo ou móvel (celular): basta <span className='font-bold'>discar 100</span>.
             </p>
             <p className='text-gray-500 text-justify mt-2'>
-            Também é possível fazer denúncias pelo aplicativo <span className='text-pink-400'>Direitos Humanos Brasil</span>, disponível para download gratuito nas lojas virtuais Google Play e Apple Store.
+            Também é possível fazer denúncias pelo aplicativo <span className='font-bold'>Direitos Humanos Brasil</span>, disponível para download gratuito nas lojas virtuais Google Play e Apple Store.
             </p>
             <p className='text-gray-500 text-justify mt-2'>
               O serviço funciona também presencialmente de segunda à sexta-feira de 9h às 12h e de 14h às 18h, exceto aos feriados.
             </p>
             <p className='text-gray-500 text-justify mt-2'>
-              <span className='text-pink-400'>Endereço: </span>Esplanada dos Ministérios Bloco A  Térreo, CEP: 70.049-900 Brasília, DF
+              <span className='font-bold'>Endereço: </span>Esplanada dos Ministérios Bloco A  Térreo, CEP: 70.049-900 Brasília, DF
             </p>
             
             <div className='flex flex-col gap-2 items-center justify-between py-8 px-8 md:px-20 md:flex-row'>
@@ -206,7 +205,6 @@ export const Cards = () => {
             </div>
         </div>
       </div>
-     <Footer />
     </div>
   )
 }
