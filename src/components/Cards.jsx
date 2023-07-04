@@ -113,7 +113,7 @@ export const Cards = () => {
 
   return (
     <div>
-      <div className='flex-col items-center text-center mt-10 justify-center mb-8 px-8 md:px-52 md:mt-32'>
+      <div className='flex-col items-center text-center mt-24 justify-center mb-8 px-8 md:px-52 md:mt-32'>
         <h1 className="font-bold mb-1 text-2xl text-gray-900">Promovendo os Direitos Humanos</h1>
         <h2 className='text-lg mb-5 font-semibold text-gray-700'>Mapeamento de Casos e Denúncias dos Direitos Humanos</h2>
         <p className='text-gray-500 text-justify'>
@@ -185,7 +185,7 @@ export const Cards = () => {
               <span className='font-bold'>Endereço: </span>Esplanada dos Ministérios Bloco A  Térreo, CEP: 70.049-900 Brasília, DF
             </p>
             
-            <div className='flex flex-col gap-2 items-center justify-between py-8 px-8 md:px-20 md:flex-row'>
+            <div className='flex flex-col gap-2 items-center justify-between py-8 px-8 text-xs md:text-base md:px-20 md:flex-row'>
               <p className=' font-bold uppercase mt-3 flex items-center justify-center gap-2 text-pink-500'>
                 <FaPhoneVolume size={20} />
                 disque 100
