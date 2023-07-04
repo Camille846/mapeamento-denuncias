@@ -154,7 +154,7 @@ export const Cards = () => {
         Este mapeamento de casos e denúncias serve como um ponto de partida para ações concretas. Ao trazer à tona essas estatísticas, esperamos incentivar a sociedade a refletir sobre a importância de se construir uma cultura de respeito, igualdade e justiça para todos. A denúncia e o registro desses casos são passos cruciais para a documentação das violações e para a busca por soluções efetivas.
         </p>
         <div className='flex flex-col gap-12 items-center justify-between py-7 mt-5 bg-zinc-100 rounded-3xl md:flex-row'>
-          <div className="text-content">
+          <div className="text-content px-5 md:px-10">
             <h2 className='text-start font-bold'>Análise da Espécie de Violação</h2>
             <p className='text-gray-500 text-justify mt-10'>
             A garantia dos Direitos Humanos é essencial para manter o bem-estar social. Os direitos à <span className='font-bold'>integridade, liberdade individual, direitos sociais, igualdade, direitos civis e políticos, direito à vida e ao meio ambiente ecologicamente equilibrado </span> são pilares fundamentais dos direitos humanos. Eles garantem a proteção da dignidade e da segurança de cada indivíduo, assegurando que não sejam submetidos a tortura, maus-tratos ou violência.
@@ -170,7 +170,7 @@ export const Cards = () => {
              <Doughnut data={doughnutData}/>
           </div>
         </div>
-        <div>
+        <div className='mt-12'>
             <h2 className='text-start font-bold'>Formas de denunciar violação de direitos humanos</h2>
             <p className='text-gray-500 text-justify mt-7'>
             As ligações podem ser feitas de todo o Brasil, gratuitamente, de qualquer telefone fixo ou móvel (celular): basta <span className='font-bold'>discar 100</span>.
