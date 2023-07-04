@@ -114,14 +114,14 @@ export const Cards = () => {
 
   return (
     <div>
-      <div className='flex-col items-center px-24 text-center mt-16 justify-center mb-8'>
+      <div className='flex-col items-center text-center mt-16 justify-center mb-8 px-52 md:px-10'>
         <h1 className="font-bold mb-1 text-2xl text-gray-900">Promovendo os Direitos Humanos</h1>
         <h2 className='text-lg mb-5 font-semibold text-gray-700'>Mapeamento de Casos e Denúncias dos Direitos Humanos</h2>
-        <p className='text-gray-500 text-justify px-12'>
+        <p className='text-gray-500 text-justify'>
           Segundo a  Declaração Universal dos Direitos Humanos, adotada e proclamada pela Assembleia Geral das Nações Unidas em 10 de dezembro 1948, todo ser humano nasce livre e tem direito à vida, à liberdade e à segurança pessoal.
           Os direitos humanos são universais e inalienáveis, e são a base de uma sociedade justa e inclusiva. Reconhecemos que certos grupos enfrentam desafios e barreiras adicionais, que os colocam em uma posição de vulnerabilidade. Portanto, <span className='font-bold'>nossa missão</span> é dar voz e apoio a essas comunidades, visando a superação das desigualdades e a garantia de oportunidades iguais para todos.
         </p>
-        <p className='text-gray-500 text-justify px-12 mt-4 mb-6'>
+        <p className='text-gray-500 text-justify mt-4 mb-6'>
         Baseado nos dados fornecidos pelo  <span className='font-bold'> Ministério dos Direitos Humanos e da Cidadania</span> referentes ao primeiro semestre de 2023, criamos um mapeamento para que possamos enxergar, a partir de uma análise quantitativa, o reflexo das violações de direitos humanos enfrentadas pelos grupos vulneráveis na Região Sudeste.
         </p>
         <div className='flex justify-end px-12'>
@@ -162,9 +162,6 @@ export const Cards = () => {
             </p>
             <p className='text-gray-500 text-justify mt-3'>
             Todo indivíduo tem o direito de ser livre, de expressar suas opiniões e de viver sem medo de perseguição ou detenção arbitrária. O direito social é priorizado, permitindo o acesso a uma educação de qualidade, cuidados de saúde, moradia adequada, trabalho digno e outros benefícios essenciais para uma vida plena e justa, onde a igualdade seja a base para a construção de uma sociedade em que os direitos civis e políticos da população sejam expressados por meio da participação ativa dos indivíduos na sociedade. Além disso, é ressaltada a importância do direito humano de conviver em um meio ambiente equilibrado, tanto individualmente quanto coletivamente. Não obstante a isso, toda a criação dos Direitos Humanos refere-se à valorização do direito à vida.
-            </p>
-            <p className='text-gray-500 text-justify mt-3'>
-            Dessa forma, todos esses direitos são interdependentes e indivisíveis, formando o alicerce de uma sociedade justa, inclusiva e respeitosa. A promoção e a proteção desses direitos são responsabilidades de todos nós, e devemos trabalhar juntos para garantir que sejam respeitados e aplicados em todas as esferas da vida. Por isso, a denúncia dos casos de violação a esses direitos deve ser fortemente estimulada.
             </p>
             <p className='text-gray-500 text-justify mt-3'>
             No gráfico apresentado, mostra-se a quantidade de violações aos Direitos Humanos no Brasil em relação à espécie de violação. Nota-se que a violação ao direito à integridade foi a que teve maior ocorrência, com mais de 1 milhão de casos no primeiro semestre de 2023. Esse dado é extremamente preocupante, pois indica um número significativo de pessoas sofrendo com tortura, maus-tratos e violência, impactando sua dignidade e segurança.
