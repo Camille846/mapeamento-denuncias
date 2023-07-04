@@ -3,31 +3,31 @@
        {
             "uf":"SP",
             "groups":[
-                {"title":"mulher",
+                {"title":"Mulheres",
                     "complaints": 11545,
                     "cases": 60261
                 },
-                {"title":"crianca",
+                {"title":"Crianças e Adolescentes",
                     "complaints": 30549,
                     "cases": 180096
                 },
-                {"title":"idosos",
+                {"title":"Pessoas Idosas",
                     "complaints": 16704,
                     "cases": 99800
                 },
-                {"title":"deficientes",
+                {"title":"Pessoas com deficiência",
                     "complaints": 9072,
                     "cases": 54845
                 },
-                {"title":"presos",
+                {"title":"Pessoas em restrição de Liberdade",
                     "complaints": 1055,
                     "cases": 4157
                 },
-               {"title":"lgbt",
+               {"title":"População LGBTQIA+",
                     "complaints": 928,
                     "cases": 5052
                 },
-                {"title":"morador_de_rua",
+                {"title":"Pessoas em Situação de Rua",
                     "complaints": 294,
                     "cases": 1698
                 }
@@ -36,31 +36,31 @@
         {
             "uf":"RJ",
             "groups":[
-                {"title":"mulher",
+                {"title":"Mulheres",
                     "complaints": 8880,
                     "cases": 47269
                 },
-                {"title":"crianca",
+                {"title":"Crianças e Adolescentes",
                     "complaints": 13627,
                     "cases": 80676
                 },
-                {"title":"idosos",
+                {"title":"Pessoas Idosas",
                     "complaints": 9044,
                     "cases": 52647
                 },
-                {"title":"deficientes",
+                {"title":"Pessoas com deficiência",
                     "complaints": 4552,
                     "cases": 26659
                 },
-                {"title":"presos",
+                {"title":"Pessoas em restrição de Liberdade",
                     "complaints": 187,
                     "cases": 804
                 },
-                {"title":"lgbt",
+                {"title":"População LGBTQIA+",
                     "complaints": 421,
                     "cases": 2354
                 },
-                {"title":"morador_de_rua",
+                {"title":"Pessoas em Situação de Rua",
                     "complaints": 225,
                     "cases": 1506
                 }
@@ -70,31 +70,31 @@
         {
             "uf":"MG",
             "groups":[
-               { "title":"mulher",
+               { "title":"Mulheres",
                     "complaints": 5247,
                     "cases": 27536
                 },
-               {"title":"crianca",
+               {"title":"Crianças e Adolescentes",
                     "complaints": 11347,
                     "cases": 64481
                 },
-               {"title":"idosos",
+               {"title":"Pessoas Idosas",
                     "complaints":7672,
                     "cases": 44564
                 },
-                {"title":"deficientes",
+                {"title":"Pessoas com deficiência",
                     "complaints": 4132,
                     "cases": 24177
                 },
-               {"title":"presos",
+               {"title":"Pessoas em restrição de Liberdade",
                     "complaints": 528,
                     "cases": 2687
                 },
-               {"title":"lgbt",
+               {"title":"População LGBTQIA+",
                     "complaints": 261,
                     "cases": 1427
                 },
-               {"title":"morador_de_rua",
+               {"title":"Pessoas em Situação de Rua",
                     "complaints": 109,
                     "cases": 670
                 }
@@ -105,37 +105,37 @@
           
             "groups":[
                 {
-                    "title":"mulher",
+                    "title":"Mulheres",
                     "complaints": 974,
                     "cases": 4985
                 },
                 {
-                     "title":"crianca",
+                     "title":"Crianças e Adolescentes",
                     "complaints": 2036,
                     "cases": 11768
                 },
                 {
-                     "title":"idosos",
+                     "title":"Pessoas Idosas",
                     "complaints": 1328,
                     "cases": 7803
                 },
                 {
-                     "title":"deficientes",
+                     "title":"Pessoas com deficiência",
                     "complaints": 700,
                     "cases": 4108
                 },
                 {
-                     "title":"presos",
+                     "title":"Pessoas em restrição de Liberdade",
                     "complaints": 83,
                     "cases": 421
                 },
             {
-                    "title":"lgbt",
+                    "title":"População LGBTQIA+",
                     "complaints": 39,
                     "cases": 180
                 },
                 {
-                    "title":"morador_de_rua",
+                    "title":"Pessoas em Situação de Rua",
                     "complaints": 19,
                     "cases": 114
                 }
@@ -144,31 +144,31 @@
     ],
     "type":[
         {
-            "name":"integridade",
+            "name":"Integridade",
             "value": 1467733
         },
         {
-            "name":"liberdade",
+            "name":"Liberdade",
             "value": 71432
         },
         {
-            "name":"direitos sociais",
+            "name":"Direitos sociais",
             "value": 58581
         },
         {
-            "name":"igualdade",
+            "name":"Igualdade",
             "value": 8145
         },
         {
-            "name":"direitos civis",
+            "name":"Direitos civis e políticos",
             "value": 5650
         },
         {
-            "name":"vida",
+            "name":"Vida",
             "value": 1614
         },
         {
-            "name":"meio ambiente",
+            "name":"Meio Ambiente",
             "value": 532
         }
     ]
