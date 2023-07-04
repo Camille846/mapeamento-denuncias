@@ -39,40 +39,10 @@ export const Cards = () => {
   },
 };
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+
   
-  const onSubmit = (data={uf:'SP'}) => { 
-    const newChartData = {
-      labels,
-      datasets: [
-        {
-          label: 'Violações', 
-          data: labels.map(label => {
-            const ufData = dados.find(dado => dado.uf == data.uf)
-    
-            const ufGroupsData = ufData.groups.find(dado => dado.title === label )
-            
-            return ufGroupsData.cases
-          }),
-          backgroundColor: 'rgba(255, 99, 132, 0.5)',
-        },
-        {
-          label: 'Denúncias', 
-          data:labels.map(label => {
-            const ufData = dados.find(dado => dado.uf == data.uf)
-    
-            const ufGroupsData = ufData.groups.find(dado => dado.title === label )
-            
-            return ufGroupsData.complaints
-          }),
-          backgroundColor: 'rgba(0, 0, 0, 0.5)',
-        },
-      ],
-  } 
-    setCharData(newChartData)
-  }
   useEffect(()=>{
-    onSubmit()
+    onChangeUf()
     
   },[])
   
@@ -99,7 +69,46 @@ export const Cards = () => {
         },
       ],
     };
+  function onChangeUf(event){
+    let uf;
+    if(!event){
 
+    uf = 'SP'
+    }else{
+
+    uf = event.target.value
+    } 
+    
+
+    const newChartData = {
+      labels,
+      datasets: [
+        {
+          label: 'Violações', 
+          data: labels.map(label => {
+            const ufData = dados.find(dado => dado.uf == uf)
+    
+            const ufGroupsData = ufData.groups.find(dado => dado.title === label )
+            
+            return ufGroupsData.cases
+          }),
+          backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        },
+        {
+          label: 'Denúncias', 
+          data:labels.map(label => {
+            const ufData = dados.find(dado => dado.uf == uf)
+    
+            const ufGroupsData = ufData.groups.find(dado => dado.title === label )
+            
+            return ufGroupsData.complaints
+          }),
+          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        },
+      ],
+  } 
+    setCharData(newChartData)
+  }
 
   return (
     <div>
@@ -114,14 +123,14 @@ export const Cards = () => {
         Baseado nos dados fornecidos pelo  <span className='font-bold'> Ministério dos Direitos Humanos e da Cidadania</span> referentes ao primeiro semestre de 2023, criamos um mapeamento para que possamos enxergar, a partir de uma análise quantitativa, o reflexo das violações de direitos humanos enfrentadas pelos grupos vulneráveis na Região Sudeste.
         </p>
         <div className='flex justify-end px-12'>
-          <form onSubmit={handleSubmit(onSubmit)} className='mb-6 flex justify-between gap-x-6'>
-            <select {...register("uf")} className='rounded-md border-stone-700 border-b-4 bg-white px-3 py-2 text-center text-stone-900 flex items-center justify-center cursor-pointe'>
+          <form className='mb-6 flex justify-between gap-x-6'>
+            <select name="uf" onChange={onChangeUf} className='rounded-md border-pink-400 border-b-4 bg-white px-3 py-2 text-center text-stone-900 flex items-center justify-center cursor-pointe'>
               <option value="SP" >SP</option>
-              <option value="RJ" >RJ</option>
+              <option value="RJ">RJ</option>
               <option value="MG">MG</option>
               <option value="ES">ES</option>
             </select>
-            <input type="submit" value='Pesquisar' className='rounded-full bg-pink-400 px-5 py-2 cursor-pointer text-white font-bold'/>
+            
           </form>
         </div>
         <div className='w-[100%] items-center flex justify-center mb-5 shadow-xl'>
