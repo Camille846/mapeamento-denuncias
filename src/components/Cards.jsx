@@ -156,8 +156,17 @@ export const Cards = () => {
           <div className="text-content">
             <h2 className='text-start font-bold'>Análise da Espécie de Violação</h2>
             <p className='text-gray-500 text-justify mt-10'>
-          Ao analisar esses números, fica evidente a urgência de ações efetivas para combater essas violações de direitos. É fundamental que as autoridades governamentais, organizações não governamentais e a sociedade como um todo se unam para promover a conscientização, a educação e o fortalecimento dos grupos vulneráveis. Além disso, é necessário que políticas públicas mais robustas sejam implementadas para garantir a proteção e a inclusão dessas comunidades.
-          </p>
+            A garantia dos Direitos Humanos é essencial para manter o bem-estar social. Os direitos à <span className='font-bold'>integridade, liberdade individual, direitos sociais, igualdade, direitos civis e políticos, direito à vida e ao meio ambiente ecologicamente equilibrado </span> são pilares fundamentais dos direitos humanos. Eles garantem a proteção da dignidade e da segurança de cada indivíduo, assegurando que não sejam submetidos a tortura, maus-tratos ou violência.
+            </p>
+            <p className='text-gray-500 text-justify mt-3'>
+            Todo indivíduo tem o direito de ser livre, de expressar suas opiniões e de viver sem medo de perseguição ou detenção arbitrária. O direito social é priorizado, permitindo o acesso a uma educação de qualidade, cuidados de saúde, moradia adequada, trabalho digno e outros benefícios essenciais para uma vida plena e justa, onde a igualdade seja a base para a construção de uma sociedade em que os direitos civis e políticos da população sejam expressados por meio da participação ativa dos indivíduos na sociedade. Além disso, é ressaltada a importância do direito humano de conviver em um meio ambiente equilibrado, tanto individualmente quanto coletivamente. Não obstante a isso, toda a criação dos Direitos Humanos refere-se à valorização do direito à vida.
+            </p>
+            <p className='text-gray-500 text-justify mt-3'>
+            Dessa forma, todos esses direitos são interdependentes e indivisíveis, formando o alicerce de uma sociedade justa, inclusiva e respeitosa. A promoção e a proteção desses direitos são responsabilidades de todos nós, e devemos trabalhar juntos para garantir que sejam respeitados e aplicados em todas as esferas da vida. Por isso, a denúncia dos casos de violação a esses direitos deve ser fortemente estimulada.
+            </p>
+            <p className='text-gray-500 text-justify mt-3'>
+            No gráfico apresentado, mostra-se a quantidade de violações aos Direitos Humanos no Brasil em relação à espécie de violação. Nota-se que a violação ao direito à integridade foi a que teve maior ocorrência, com mais de 1 milhão de casos no primeiro semestre de 2023. Esse dado é extremamente preocupante, pois indica um número significativo de pessoas sofrendo com tortura, maus-tratos e violência, impactando sua dignidade e segurança.
+            </p>
           </div>
           <div className="doghnut-content">
              <Doughnut data={doughnutData}/>
