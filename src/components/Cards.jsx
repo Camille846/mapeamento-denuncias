@@ -1,8 +1,8 @@
 import Json from '../dados.json'
 import { Chart as ChartJS, CategoryScale, Tooltip, Legend, LinearScale,BarElement,Title,ArcElement } from "chart.js";
 import { Bar, Doughnut } from 'react-chartjs-2';
-import { useForm } from "react-hook-form";
-import {useState,useEffect } from 'react'
+import {useState,useEffect } from 'react';
+import { Footer } from './Footer';
 
 ChartJS.register(
   CategoryScale,
@@ -112,7 +112,7 @@ export const Cards = () => {
 
   return (
     <div>
-      <div className='flex-col items-center px-12 text-center mt-16 justify-center mb-10'>
+      <div className='flex-col items-center px-12 text-center mt-16 justify-center mb-8'>
         <h1 className="font-bold mb-1 text-2xl text-gray-900">Promovendo os Direitos Humanos</h1>
         <h2 className='text-lg mb-5 font-semibold text-gray-700'>Mapeamento de Casos e Denúncias dos Direitos Humanos</h2>
         <p className='text-gray-500 text-justify px-12'>
@@ -173,6 +173,7 @@ export const Cards = () => {
           </div>
         </div>
       </div>
+     <Footer />
     </div>
   )
 }
