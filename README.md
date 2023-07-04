@@ -6,7 +6,6 @@ Site interativo com Mapeamento de Denúncias de Violações dos Direitos Humanos
 
 - React JS
 - Chart JS
-- React Hook Form
 - Tailwind CSS
 
 ## Dados
