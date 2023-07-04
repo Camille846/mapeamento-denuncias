@@ -2,6 +2,8 @@ import Json from '../dados.json'
 import { Chart as ChartJS, CategoryScale, Tooltip, Legend, LinearScale,BarElement,Title,ArcElement } from "chart.js";
 import { Bar, Doughnut } from 'react-chartjs-2';
 import {useState,useEffect } from 'react';
+import { FaPhoneVolume, FaWhatsapp, FaAppStore } from 'react-icons/fa';
+import { PiPersonFill } from 'react-icons/pi'
 import { Footer } from './Footer';
 
 ChartJS.register(
@@ -112,7 +114,7 @@ export const Cards = () => {
 
   return (
     <div>
-      <div className='flex-col items-center px-12 text-center mt-16 justify-center mb-8'>
+      <div className='flex-col items-center px-24 text-center mt-16 justify-center mb-8'>
         <h1 className="font-bold mb-1 text-2xl text-gray-900">Promovendo os Direitos Humanos</h1>
         <h2 className='text-lg mb-5 font-semibold text-gray-700'>Mapeamento de Casos e Denúncias dos Direitos Humanos</h2>
         <p className='text-gray-500 text-justify px-12'>
@@ -171,6 +173,40 @@ export const Cards = () => {
           <div className="doghnut-content">
              <Doughnut data={doughnutData}/>
           </div>
+        </div>
+        <div className='px-12'>
+            <h2 className='text-start font-bold'>Formas de denunciar violação de direitos humanos</h2>
+            <p className='text-gray-500 text-justify mt-7'>
+            As ligações podem ser feitas de todo o Brasil, gratuitamente, de qualquer telefone fixo ou móvel (celular): basta <span className='text-pink-400'>discar 100</span>.
+            </p>
+            <p className='text-gray-500 text-justify mt-2'>
+            Também é possível fazer denúncias pelo aplicativo <span className='text-pink-400'>Direitos Humanos Brasil</span>, disponível para download gratuito nas lojas virtuais Google Play e Apple Store.
+            </p>
+            <p className='text-gray-500 text-justify mt-2'>
+              O serviço funciona também presencialmente de segunda à sexta-feira de 9h às 12h e de 14h às 18h, exceto aos feriados.
+            </p>
+            <p className='text-gray-500 text-justify mt-2'>
+              <span className='text-pink-400'>Endereço: </span>Esplanada dos Ministérios Bloco A  Térreo, CEP: 70.049-900 Brasília, DF
+            </p>
+            
+            <div className='flex flex-row gap-2 items-center justify-between py-8 px-20'>
+              <p className=' font-bold uppercase mt-3 flex items-center justify-center gap-2 text-pink-500'>
+                <FaPhoneVolume size={20} />
+                disque 100
+              </p>
+              <p className=' font-bold uppercase mt-3 flex items-center justify-center gap-2 text-pink-500'>
+                <FaWhatsapp size={20} />
+                <a href="https://api.whatsapp.com/send?phone=61996565008" target="_blank"> Whatsapp</a>
+              </p>
+              <p className='font-bold uppercase mt-3 flex items-center justify-center gap-2 text-pink-500'>
+                <FaAppStore size={20} />
+                <a href="https://play.google.com/store/apps/details?id=br.gov.direitoshumanosbrasil&hl=pt_BR&pli=1" target="_blank"> Direitos Humanos Brasil</a>
+              </p>
+              <p className='font-bold uppercase mt-3 flex items-center justify-center gap-2 text-pink-500'>
+                <PiPersonFill size={20} />
+                Presencial/Cartão Postal
+              </p>
+            </div>
         </div>
       </div>
      <Footer />
