@@ -143,7 +143,7 @@ export const Cards = () => {
         <p className='text-gray-500 text-justify px-12 mt-4 mb-6'>
         Este mapeamento de casos e denúncias serve como um ponto de partida para ações concretas. Ao trazer à tona essas estatísticas, esperamos incentivar a sociedade a refletir sobre a importância de se construir uma cultura de respeito, igualdade e justiça para todos. A denúncia e o registro desses casos são passos cruciais para a documentação das violações e para a busca por soluções efetivas.
         </p>
-        <div className='flex flex-row gap-12 items-center justify-between px-12 py-7 mt-5 bg-zinc-100 rounded-3xl'>
+        <div className='flex flex-col gap-12 items-center justify-between px-12 py-7 mt-5 bg-zinc-100 rounded-3xl md:flex-row'>
           <div className="text-content">
             <h2 className='text-start font-bold'>Análise da Espécie de Violação</h2>
             <p className='text-gray-500 text-justify mt-10'>
