@@ -114,7 +114,7 @@ export const Cards = () => {
 
   return (
     <div>
-      <div className='flex-col items-center text-center mt-16 justify-center mb-8 px-52 md:px-10'>
+      <div className='flex-col items-center text-center mt-16 justify-center mb-8 px-8 md:px-52'>
         <h1 className="font-bold mb-1 text-2xl text-gray-900">Promovendo os Direitos Humanos</h1>
         <h2 className='text-lg mb-5 font-semibold text-gray-700'>Mapeamento de Casos e Denúncias dos Direitos Humanos</h2>
         <p className='text-gray-500 text-justify'>
@@ -124,7 +124,7 @@ export const Cards = () => {
         <p className='text-gray-500 text-justify mt-4 mb-6'>
         Baseado nos dados fornecidos pelo  <span className='font-bold'> Ministério dos Direitos Humanos e da Cidadania</span> referentes ao primeiro semestre de 2023, criamos um mapeamento para que possamos enxergar, a partir de uma análise quantitativa, o reflexo das violações de direitos humanos enfrentadas pelos grupos vulneráveis na Região Sudeste.
         </p>
-        <div className='flex justify-end px-12'>
+        <div className='flex justify-end'>
           <form className='mb-6 flex justify-between gap-x-6'>
             <select name="uf" onChange={onChangeUf} className='rounded-md border-pink-400 border-b-4 bg-white px-3 py-2 text-center text-stone-900 flex items-center justify-center cursor-pointe'>
               <option value="SP" >SP</option>
@@ -148,13 +148,13 @@ export const Cards = () => {
           </div> 
         </div>
         <span className='text-xs font-bold'>Fonte: <a href='https://www.gov.br/mdh/pt-br/ondh/painel-de-dados/primeiro-semestre-de-2023' target='_blank' className='font-semibold'>Ministério dos Direitos Humanos e da Cidadania</a></span>
-        <p className='text-gray-500 text-justify px-12 mt-10'>
+        <p className='text-gray-500 text-justify mt-10'>
         Ao analisar esses números, fica evidente a urgência de ações efetivas para combater essas violações de direitos. É fundamental que as autoridades governamentais, organizações não governamentais e a sociedade como um todo se unam para promover a conscientização, a educação e o fortalecimento dos grupos vulneráveis. Além disso, é necessário que políticas públicas mais robustas sejam implementadas para garantir a proteção e a inclusão dessas comunidades.
         </p>
-        <p className='text-gray-500 text-justify px-12 mt-4 mb-6'>
+        <p className='text-gray-500 text-justify mt-4 mb-6'>
         Este mapeamento de casos e denúncias serve como um ponto de partida para ações concretas. Ao trazer à tona essas estatísticas, esperamos incentivar a sociedade a refletir sobre a importância de se construir uma cultura de respeito, igualdade e justiça para todos. A denúncia e o registro desses casos são passos cruciais para a documentação das violações e para a busca por soluções efetivas.
         </p>
-        <div className='flex flex-col gap-12 items-center justify-between px-12 py-7 mt-5 bg-zinc-100 rounded-3xl md:flex-row'>
+        <div className='flex flex-col gap-12 items-center justify-between py-7 mt-5 bg-zinc-100 rounded-3xl md:flex-row'>
           <div className="text-content">
             <h2 className='text-start font-bold'>Análise da Espécie de Violação</h2>
             <p className='text-gray-500 text-justify mt-10'>
@@ -171,7 +171,7 @@ export const Cards = () => {
              <Doughnut data={doughnutData}/>
           </div>
         </div>
-        <div className='px-12'>
+        <div>
             <h2 className='text-start font-bold'>Formas de denunciar violação de direitos humanos</h2>
             <p className='text-gray-500 text-justify mt-7'>
             As ligações podem ser feitas de todo o Brasil, gratuitamente, de qualquer telefone fixo ou móvel (celular): basta <span className='text-pink-400'>discar 100</span>.
@@ -186,7 +186,7 @@ export const Cards = () => {
               <span className='text-pink-400'>Endereço: </span>Esplanada dos Ministérios Bloco A  Térreo, CEP: 70.049-900 Brasília, DF
             </p>
             
-            <div className='flex flex-row gap-2 items-center justify-between py-8 px-20'>
+            <div className='flex flex-col gap-2 items-center justify-between py-8 px-8 md:px-20 md:flex-row'>
               <p className=' font-bold uppercase mt-3 flex items-center justify-center gap-2 text-pink-500'>
                 <FaPhoneVolume size={20} />
                 disque 100
