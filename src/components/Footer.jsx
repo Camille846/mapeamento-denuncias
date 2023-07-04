@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div>
         <footer>
-            <div className='flex flex-col items-center justify-between  bg-pink-100 py-8'>
+            <div className='flex flex-col items-center justify-between bg-pink-100 py-8'>
                 <div className='flex flex-col items-center justify-center mt-5'>
                     <h2>Desenvolvido por <span className='font-bold'>Camille Gomes</span></h2>
                 </div>
